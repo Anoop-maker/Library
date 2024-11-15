@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<h2 class="text-center text-primary mt-3">Welcome to View users</h2>
+
+
+
+<!--#### TABLE ####-->
+
+<table class="table table-boarded bg-light">
+    <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>PLACE</th>
+        <th>NUMBER</th>
+        <th>GENDER</th>
+    </tr>
+    <tr>
+        {% for i in users %}
+        <td>{{i.name}}</td>
+        <td>{{i.age}}</td>
+        <td>{{i.place}}</td>
+        <td>{{i.number}}</td>
+        <td>{{i.gender}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

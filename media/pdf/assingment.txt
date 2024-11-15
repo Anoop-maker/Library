@@ -1,0 +1,89 @@
+#1] what are the 5 main featchers of python
+# 1)high level language
+#2)interpreted language
+#3)intractive language
+#4)dynamically type language
+#5)multiple paradymics support language
+
+
+#2] what are the built in types in python syntax
+#int, float, char, strg,
+
+
+#3] what is slicing
+# given data split and call with index value s
+# syntax is [starting point:ending point:step ponint]
+
+
+#4] what are the different b/w list and tuple
+# different syntax using
+# tuple - ()  / list - []
+# tuple is immutable
+# list is mutable
+
+#5] what is dictionary
+# is set of elements contain instructions
+#dictionary - {key: value}
+
+#6] what are the conditions  in set
+#only not repeated values
+#only use immutable type datas
+#not calling syntax
+
+#7] #what is membership operator
+# using statements and,or&not type operator
+
+#8] what is floor division operator
+#it is arithmatic operator
+#check the divisibility
+#using syntax - %2
+
+#9] what is conditional statements 4types? sytax
+#1)if :-
+#syntax- if(condition):
+      #     statement 1
+      #     statement 2
+      #  -
+      #  -
+      #  -
+#2)if else :-
+#syntax - if(condition):
+#           statement 1
+#        else:
+#           statement 2
+#3)if elif else  :-
+#syntax :- if(condition):
+#            statement 1
+#          elif (condition):
+#            statement 2
+#          else:
+#            statement 3
+# 4)nested     :-
+#syntax :- if(condition):
+#             if(condition):
+#                statement 1
+#             else:
+#                 statement 2
+#          else:
+#                 statement
+
+#10] given a string print the string from 4th index to end of string
+#s='hello world'
+#print(s[4]:s[10])
+
+#11] given a list l? print print the string from 4th index to end od stringgiven a list l? print the 3rd element of list
+#l=('hello')
+#print(l[2])
+
+#12] given a dictionary d? how to update the 'age' key of dictionary into 27 ?
+#d={'name':'anu','age':25}
+#print(d['age':]=27)
+
+#13]given a tuple t=(1,2,3)? what is the o/p of t[1]=t[1=1;print(t)
+# tuple is immutable , so updation not working
+
+#what is the ordinal value of character 'l'?
+#ord('l') is 108
+
+#how to convert dictionary into tuple
+#dict.items()
